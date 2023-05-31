@@ -1,21 +1,21 @@
-Day01TeamMembers:
+##Day01TeamMembers:
 This Java program reads data from a file named "teams.txt" and creates a mapping of players to the teams they belong to. It then prints out each player along with the teams they play for.
 
-Prerequisites:
+##Prerequisites:
 Java Development Kit (JDK) installed
 
-How to Run:
+##How to Run:
 Clone the repository or download the Day01TeamMembers.java file.
 Ensure that the teams.txt file is in the same directory as the Day01TeamMembers.java file.
 Open a terminal or command prompt and navigate to the directory containing the Day01TeamMembers.java file.
 
-Compile the Java file by executing the following command:
+##Compile the Java file by executing the following command:
 javac Day01TeamMembers.java
 
-Run the program using the following command:
+##Run the program using the following command:
 java Day01TeamMembers
 
-File Format:
+##File Format:
 The teams.txt file should have the following format:
 
 team1:player1,player2,player3,...
@@ -23,14 +23,14 @@ team2:player4,player5,player6,...
 ...
 Each line represents a team and its corresponding players. The team name and player names are separated by a colon (':'). Multiple players for each team are separated by commas (',').
 
-Output:
+##Output:
 The program will display the players and the teams they play for in the following format:
 
 player1 plays in: team1, team2, ...
 player2 plays in: team1, team3, ...
 ...
 
-Error Handling:
+##Error Handling:
 If the program fails to find the teams.txt file in the same directory, it will display an error message indicating the cause of the exception.
 
 Note: Make sure the teams.txt file exists and is correctly formatted for the program to run successfully.
